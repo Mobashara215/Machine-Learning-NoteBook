@@ -1,0 +1,11 @@
+student={
+    "name":"mobashara",
+    "subjects":{
+        "phy":98,
+        "chem":90,
+        "math":90
+    }
+}
+new_dict={"name":"aymana","age":12}
+student.update(new_dict)
+print(student)
